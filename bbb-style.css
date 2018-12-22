@@ -1,0 +1,162 @@
+/* Stylesheet for Billy's Best Buy */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+	
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #efefef;
+	font: 1em 'Lato', Arial, Geneva, sans-serif;
+}
+
+.container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header
+{
+	padding: 0.5em 0.5em 0 0.5em;
+}
+
+.content 
+{ 
+	padding: 0 0.5em 0.5em 0.5em; 
+}
+
+.listing-box
+{
+	padding: 0.5em 0;	
+}
+	
+	
+.box-title-main
+{
+	padding: 8px 10px;
+	background: #ffc400;
+	border-radius: 8px 8px 0 0;
+}
+
+.box-title-main h2
+{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: #000099;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+
+.box-title 
+{
+	padding: 8px 10px;
+	background: #000099;
+	border-radius: 8px 8px 0 0;
+}
+
+.box-title h2
+{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;				
+	font-weight: 700;
+	margin: 0;
+}
+	
+.box-content
+{
+	padding: 10px;
+	background: #fff;
+	border-radius: 0 0 8px 8px;
+}
+
+.box-content p
+{
+	margin: 3px;
+}
+
+.box-text 
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: #323232;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+	line-height: 18px;
+}
+
+.box-text ul 
+{
+		margin: 0;
+		padding: 0 10px;
+		list-style: none;
+		text-align: left;
+}
+
+.box-text ul li 
+{
+	margin: 2px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+	text-align: left;
+	background: url(http://www.ebaysellertemplates.com/ebay/listing/FREE9/bullet.png) no-repeat left 2px
+}
+
+.img-responsive 
+{ 
+	max-width: 100%; 
+}
+
+/* for 980px or less */
+
+@media screen and (max-width: 980px) 
+{
+	.container 
+	{
+		width: auto;
+		padding: 1.5%;
+	}
+  
+	.content
+	{
+		padding: 0 1%;
+	}
+  
+	.header
+	{
+		padding: 1% 1% 0 1%;
+	}
+}
+
+/* for 700px or less */
+
+@media screen and (max-width: 600px) 
+{
+	.container 
+	{
+		width: auto;
+		padding: 1% 2%;
+	}
+  
+	.box-title h2, .box-title-main h2
+	{
+		font-size: 1em;
+	}
+  
+	.box-content
+	{
+		font-size: 0.9em;
+	}
+	
+	.listing-box 
+	{
+		padding: 1% 0;
+	}
+}
