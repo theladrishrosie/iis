@@ -1,6 +1,6 @@
 /* Stylesheet for Billy's Best Buy */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
 	
 body
 {
@@ -106,7 +106,7 @@ body
 	padding: 0 0 0 20px;
 	list-style: none;
 	text-align: left;
-	background: url(http://www.ebaysellertemplates.com/ebay/listing/FREE9/bullet.png) no-repeat left 2px
+	background: url(bullet.png) no-repeat left 2px
 }
 
 .img-responsive 
